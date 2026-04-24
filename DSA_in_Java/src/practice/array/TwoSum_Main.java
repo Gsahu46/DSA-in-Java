@@ -2,10 +2,9 @@ package practice.array;
 
 class TwoSum{
 	
-	static boolean twoSumProblem(int[] arr, int target) {
+	  boolean twoSumProblem(int[] arr, int target) {
 		
 		int n = arr.length;
-		
 		for(int i = 0; i < n; i++)
 		{
 			for(int j = i+1; j < n; j++) {
